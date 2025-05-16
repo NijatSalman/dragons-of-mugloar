@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: dragons-of-mugloar
+
+dragon:
+  api:
+    url: https://dragonsofmugloar.com/api/v2
+  game:
+    targetScore: 1000
+    livesThreshold: 3
+    deathThreshold: 0
+    goldThreshold: 50
+    minActions: 3
+    maxActions: 7
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+    com.company.dragons_of_mugloar: TRACE
